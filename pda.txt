@@ -1,0 +1,8 @@
+M = ({Q, F}, {a, b}, {a, b, z}, Q, z, {F})
+$(Q, @, z) = (F, z)
+$(Q, a, z) = (Q, az)
+$(Q, b, z) = (Q, bz)
+$(Q, a, a) = (Q, aa)
+$(Q, b, a) = (Q, @)
+$(Q, a, b) = (Q, @)
+$(Q, b, b) = (Q, bb)
